@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/lycatheme" mode="merge"/>
+    <filter root="/content/lycatheme" mode="merge"/>
+    <filter root="/content/dam/lycatheme" mode="merge">
+        <exclude pattern="/content/dam/lycatheme(/.*)?"/>
+        <include pattern="/content/dam/lycatheme/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/lycatheme/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/lycatheme" mode="merge"/>
+</workspaceFilter>
